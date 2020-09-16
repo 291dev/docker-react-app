@@ -1,4 +1,3 @@
-# Docker化が必要になった時用
 FROM node:12 as node
 COPY . /react-app
 WORKDIR /react-app
